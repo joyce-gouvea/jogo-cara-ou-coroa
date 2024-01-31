@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+    height: 100vh;
+}
+
+.titulo{
+    text-align: center;
+    color: #e1e5ed;
+    letter-spacing: 2px;
+}
+
+.quadrado-default{
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #0a163b;
+    box-shadow: 1px 1px 5px black;
+}
+
+.quadradoTopo-detalhes{
+    margin: 60px auto 0;
+    height: 80px;
+    width: 335px;
+    padding-top: 10px;
+}
+
+.txt-default{
+    margin-top: 5px;
+    color: #e1e5ed;
+    letter-spacing: 2px;
+}
+
+#ladoGanhador{
+    text-align: center;
+    width: 120px;
+    margin-top: 25px;
+}
+
+.valoresMoeda-default{
+    margin-top: 15px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botao-default{
+    color: #e1e5ed;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    padding: 20px 40px;
+    box-shadow: 1px 1px 5px black;
+    background: #546d8b;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-default:nth-child(2){
+    margin-left: 30px;
+}
+
+.botao-default:hover{
+    opacity: 0.7;
+}
+
+.botao-default:active{
+    background: #e1e5ed;
+    color: #7d9dc5;
+    cursor: wait;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado-moedaDetalhes{
+    height: 150px;
+    width: 335px;
+}
+
+.container .quadrado-moedaDetalhes:nth-child(2){
+    margin-left: 60px;
+}
+
+.quadrado-imgMoeda{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.resultadoJogo{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #e1e5ed;
+    text-shadow: 1px 1px 1px black;
+    background: #305c92;
+    box-shadow: 1px 1px 5px black;
+    margin: 20px auto 0;
+    width: 320px;
+    padding: 18px;
+    border-radius: 8px;
+}
+
